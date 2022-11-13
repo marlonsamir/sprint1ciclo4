@@ -32,6 +32,7 @@ cursos = [{"curso": "Fundamentos programación"},
 
 
 
+
 @app.get ("/cursos/")
 
 async def read_item(skip: int=0, limit: int = 10):
